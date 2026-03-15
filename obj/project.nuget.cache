@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xiTpH9J7b+M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nilad\\KycAgentPlatform\\KycAgentPlatform.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nilad\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\nilad\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
