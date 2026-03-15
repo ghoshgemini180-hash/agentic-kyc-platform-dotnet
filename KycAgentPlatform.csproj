@@ -10,19 +10,21 @@
     <Compile Remove="src\KycAgentPlatform\Observability\**" />
     <Compile Remove="src\KycAgentPlatform\Planner\**" />
     <Compile Remove="src\KycAgentPlatform\Runtime\**" />
-    <Compile Remove="src\KycAgentPlatform\Services\**" />
     <Content Remove="src\KycAgentPlatform\Observability\**" />
     <Content Remove="src\KycAgentPlatform\Planner\**" />
     <Content Remove="src\KycAgentPlatform\Runtime\**" />
-    <Content Remove="src\KycAgentPlatform\Services\**" />
     <EmbeddedResource Remove="src\KycAgentPlatform\Observability\**" />
     <EmbeddedResource Remove="src\KycAgentPlatform\Planner\**" />
     <EmbeddedResource Remove="src\KycAgentPlatform\Runtime\**" />
-    <EmbeddedResource Remove="src\KycAgentPlatform\Services\**" />
     <None Remove="src\KycAgentPlatform\Observability\**" />
     <None Remove="src\KycAgentPlatform\Planner\**" />
     <None Remove="src\KycAgentPlatform\Runtime\**" />
-    <None Remove="src\KycAgentPlatform\Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="src\KycAgentPlatform\Services\KafkaConsumer.cs" />
+    <Compile Remove="src\KycAgentPlatform\Services\KafkaProducer.cs" />
+    <Compile Remove="src\KycAgentPlatform\Services\WebSearchService.cs" />
   </ItemGroup>
 
   <ItemGroup>
