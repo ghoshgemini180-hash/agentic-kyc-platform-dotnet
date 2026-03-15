@@ -1,6 +1,6 @@
 @KycAgentPlatform_HostAddress = http://localhost:5213
 
-GET {{KycAgentPlatform_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{KycAgentPlatform_HostAddress}}/api/kyc
+Content-Type: application/json
 
-###
+"test document"
