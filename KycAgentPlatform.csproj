@@ -7,7 +7,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="src\KycAgentPlatform\Observability\**" />
+    <Compile Remove="src\KycAgentPlatform\Planner\**" />
+    <Compile Remove="src\KycAgentPlatform\Runtime\**" />
+    <Compile Remove="src\KycAgentPlatform\Services\**" />
+    <Content Remove="src\KycAgentPlatform\Observability\**" />
+    <Content Remove="src\KycAgentPlatform\Planner\**" />
+    <Content Remove="src\KycAgentPlatform\Runtime\**" />
+    <Content Remove="src\KycAgentPlatform\Services\**" />
+    <EmbeddedResource Remove="src\KycAgentPlatform\Observability\**" />
+    <EmbeddedResource Remove="src\KycAgentPlatform\Planner\**" />
+    <EmbeddedResource Remove="src\KycAgentPlatform\Runtime\**" />
+    <EmbeddedResource Remove="src\KycAgentPlatform\Services\**" />
+    <None Remove="src\KycAgentPlatform\Observability\**" />
+    <None Remove="src\KycAgentPlatform\Planner\**" />
+    <None Remove="src\KycAgentPlatform\Runtime\**" />
+    <None Remove="src\KycAgentPlatform\Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10" />
   </ItemGroup>
+  <ItemGroup>
+	<PackageReference Include="Microsoft.SemanticKernel" Version="1.70.0" />
+	<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+</ItemGroup>
 
 </Project>
