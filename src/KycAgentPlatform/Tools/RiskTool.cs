@@ -4,9 +4,6 @@ public class RiskTool
 {
     public int Calculate(string country)
     {
-        if (country == "India")
-            return 10;
-
-        return 60;
+        return country == "India" ? 10 : 60;
     }
 }

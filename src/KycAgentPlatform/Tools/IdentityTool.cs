@@ -6,7 +6,7 @@ public class IdentityTool
     {
         return new CustomerKycData
         {
-            Name = "John Doe",
+            Name = "Debangshu",
             Country = "India",
             Pan = "ABCDE1234F"
         };
